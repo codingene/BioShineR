@@ -20,6 +20,11 @@ Anyway this [codingene/bioshiner] made on top of [rocker/shiny] only and loosely
 	```
 	docker pull codingene/bioshiner:3.10
 	```
+	
+## All Tags
+| image | Bioc-Version |
+|-------|------|
+| codingene/bioshiner:3.10 | Bioconductor:3.10 |
 
 [R Shiny]: https://shiny.rstudio.com/
 [Shiny-Server]: https://rstudio.com/products/shiny/shiny-server/

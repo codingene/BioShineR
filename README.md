@@ -1,4 +1,9 @@
 # BioShineR
+
+[![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/codingene/bioshiner)](https://hub.docker.com/r/codingene/bioshiner/)
+[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/codingene/bioshiner)](https://cloud.docker.com/u/codingene/repository/docker/codingene/bioshiner/builds)
+[![Docker Pulls](https://img.shields.io/docker/pulls/codingene/bioshiner)]((https://hub.docker.com/r/codingene/bioshiner/))
+
 Containerize **Bio**conductor and **Shin**y with Dock**eR**
 
 This serves as a base image to deploy a [R Shiny] application with [Shiny-Server] including some basic [Bioconductor] packages.

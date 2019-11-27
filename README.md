@@ -1,5 +1,5 @@
-# bioshiner
-Containerize **Bio**conductor and **Shin**y with Dock**er**
+# BioShineR
+Containerize **Bio**conductor and **Shin**y with Dock**eR**
 
 This serves as a base image to deploy a [R Shiny] application with [Shiny-Server] including some basic [Bioconductor] packages.
 

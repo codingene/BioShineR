@@ -26,6 +26,21 @@ Anyway this [codingene/bioshiner] made on top of [rocker/shiny] only and loosely
 |-------|------|
 | codingene/bioshiner:3.10 | Bioconductor:3.10 |
 
+## Test
+Clone this repository containing test app
+```
+git clone https://github.com/codingene/BioShineR
+```
+
+Run the app
+```
+docker run --rm -p 3838:3838 \
+	-v ${PWD}/bioshiner/test/apps/biocmanager:/srv/shiny-server/ \
+	-v /srv/shinylog/:/var/log/shiny-server/ \
+	codingene/bioshiner:3.10
+```
+Open the app in browser: http://localhost:3838/
+
 [R Shiny]: https://shiny.rstudio.com/
 [Shiny-Server]: https://rstudio.com/products/shiny/shiny-server/
 [Bioconductor]: https://www.bioconductor.org/

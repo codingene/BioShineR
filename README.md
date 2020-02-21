@@ -35,7 +35,7 @@ git clone https://github.com/codingene/BioShineR
 Run the app
 ```
 docker run --rm -p 3838:3838 \
-	-v ${PWD}/bioshiner/test/apps/biocmanager:/srv/shiny-server/ \
+	-v ${PWD}/BioShineR/test/apps/biocmanager:/srv/shiny-server/ \
 	-v /srv/shinylog/:/var/log/shiny-server/ \
 	codingene/bioshiner:3.10
 ```

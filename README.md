@@ -16,15 +16,16 @@ Anyway this [codingene/bioshiner] made on top of [rocker/shiny] only and loosely
 ## Principles
 * Image tags will represnt corresponding [Bioconductor relese versions]
 
-	For example to use `Bioconductor 3.10`
+	For example to use `Bioconductor 3.11`
 	```
-	docker pull codingene/bioshiner:3.10
+	docker pull codingene/bioshiner:3.11
 	```
 	
 ## All Tags
-| image | Bioc-Version |
-|-------|------|
-| codingene/bioshiner:3.10 | Bioconductor:3.10 |
+| image | Bioc-Version | R-Version |
+|-------|------|------|
+| codingene/bioshiner:3.10 | Bioconductor:3.10 | R:3.6.1 |
+| codingene/bioshiner:3.11 | Bioconductor:3.11 | R:4.0.0 |
 
 ## Test
 Clone this repository containing test app
@@ -37,7 +38,7 @@ Run the app
 docker run --rm -p 3838:3838 \
 	-v ${PWD}/BioShineR/test/apps/biocmanager:/srv/shiny-server/ \
 	-v /srv/shinylog/:/var/log/shiny-server/ \
-	codingene/bioshiner:3.10
+	codingene/bioshiner:3.11
 ```
 Open the app in browser: http://localhost:3838/
 
